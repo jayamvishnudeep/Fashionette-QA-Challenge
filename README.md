@@ -25,9 +25,14 @@ Right click on testng.xml file and click on run
 <ul>
 <li><b>mvn clean install</b> - use this command while running the tests for the first time</li>
 <li><b>mvn clean test</b> - to run tests</li>
-<li>By default tests will run in chrome browser,In order to run the tests in firefox, change <b>browserName</b> value to firefox in <b>src/main/java/fashionette/qa/automation/config.properties</b></li>
-<li>After running the tests, if wanted to check for the test results extent report then look into this path <b>reports/extent.html</b> </li>
-</ul>
+
+## Cross Browser Testing
+
+By default all the tests will run in chrome browser,In order to run the tests in firefox, change <b>browserName</b> value to firefox in <b>src/main/java/fashionette/qa/automation/config.properties</b></li>
+
+## Test Reports
+After running the tests, if wanted to check for the test results extent report then look into this path <b>reports/extent.html</b> </li>
+
 
 
 
