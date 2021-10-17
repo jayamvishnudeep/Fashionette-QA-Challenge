@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Fashionette QA Test Automation">
+    <test name="Automation Practice">
+        <classes>
+            <class name="fashionette.qa.automation.FashionetteTests"/>
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->
